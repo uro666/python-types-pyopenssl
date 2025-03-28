@@ -14,7 +14,7 @@ BuildArch:	noarch
 
 BuildRequires:	python
 BuildRequires:	pkgconfig(python3)
-Requires:	python%{pyver}dist(types-cffi)
+Requires:	python%{pyver}dist(types_cffi)
 Requires:	python%{pyver}dist(cryptography)
 Provides:	python%{pyver}dist(%{module})
 
